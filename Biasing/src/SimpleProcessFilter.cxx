@@ -29,7 +29,6 @@ namespace ldmx {
         if (reactionOccurred_) { 
             return;
         } 
-        std::cout << "reaction occurred: " << reactionOccurred_ << std::endl;
 
         // Get the track associated with this step.
         G4Track* track = step->GetTrack();
